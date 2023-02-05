@@ -1,0 +1,9 @@
+{
+	"name": "rtvspt",
+	"version": "1.0.0",
+	"description": "Boilerplate: React, Typescript, Vite, Styled Components, Redux persist",
+	"repository": "https://github.com/C0C41N/React-TS-Vite-Styled-Persist-Template",
+	"author": "C0C41N <0ct41n@gmail.com>",
+	"license": "BSD-3",
+	"private": true
+}
