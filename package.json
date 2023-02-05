@@ -1,9 +1,34 @@
 {
 	"name": "rtvspt",
-	"version": "1.0.0",
+	"private": true,
+	"version": "0.0.0",
 	"description": "Boilerplate: React, Typescript, Vite, Styled Components, Redux persist",
 	"repository": "https://github.com/C0C41N/React-TS-Vite-Styled-Persist-Template",
 	"author": "C0C41N <0ct41n@gmail.com>",
 	"license": "BSD-3",
-	"private": true
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@emotion/react": "^11.10.5",
+		"@emotion/styled": "^11.10.5",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-redux": "^8.0.5",
+		"react-router-dom": "^6.8.0",
+		"redux": "^4.2.1",
+		"redux-persist": "^6.0.0"
+	},
+	"devDependencies": {
+		"@types/node": "^18.11.19",
+		"@types/react": "^18.0.27",
+		"@types/react-dom": "^18.0.10",
+		"@vitejs/plugin-react-swc": "^3.0.0",
+		"typescript": "^4.9.3",
+		"vite": "^4.1.0",
+		"vite-tsconfig-paths": "^4.0.5"
+	}
 }
