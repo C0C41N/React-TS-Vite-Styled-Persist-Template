@@ -1,0 +1,63 @@
+{
+	"editor.tabSize": 2,
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"prettier.useTabs": true,
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		},
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.insertSpaces": false,
+	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+	"javascript.format.semicolons": "remove",
+	"javascript.preferences.quoteStyle": "single",
+	"typescript.format.semicolons": "remove",
+	"typescript.preferences.quoteStyle": "single",
+	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+	"javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"prettier.arrowParens": "avoid",
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"importSorter.generalConfiguration.sortOnBeforeSave": true,
+	"editor.suggestSelection": "first",
+	"js/ts.implicitProjectConfig.experimentalDecorators": true,
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"importSorter.sortConfiguration.removeUnusedImports": true,
+	"editor.bracketPairColorization.enabled": true,
+	"workbench.editor.highlightModifiedTabs": true,
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"emmet.includeLanguages": {
+		"postcss": "css"
+	},
+	"prettier.semi": false,
+	"prettier.jsxSingleQuote": true,
+	"prettier.singleQuote": true,
+	"importSorter.importStringConfiguration.hasSemicolon": false,
+	"importSorter.sortConfiguration.removeUnusedDefaultImports": true,
+	"editor.wordWrapColumn": 120,
+	"importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.count": 1000,
+	"explorer.sortOrderLexicographicOptions": "lower",
+	"editor.inlineSuggest.enabled": true,
+	"editor.stickyScroll.enabled": true,
+	"prettier.printWidth": 120,
+	"github.copilot.enable": {
+		"*": true,
+		"yaml": false,
+		"plaintext": false,
+		"markdown": false
+	}
+}
